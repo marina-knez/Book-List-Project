@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Krona+One|Roboto+Mono&display=swap');
+
+body {
+    margin-top: 40;
+    padding: 0;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    padding: 32px 350px 48px 20px;
+    border: 1px solid rgb(160, 156, 156);
+    margin: 20px;
+    border-radius: 8px;
+}
+
+h1 {
+    font-family: 'Krona One';
+    text-align: center;
+    color: rgba(255, 128, 0, 1);
+    padding-top: 20px;
+}
+
+.book-form {
+    padding: 20px 20px 40px 20px;
+}
+
+p {
+    font-family: 'Krona One';
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(114, 60, 5);
+}
+
+input {
+    width: 100%;
+    font-family: 'Krona One';
+}
+
+.btn {
+    width: 35%;
+    background: rgb(243, 125, 7);
+    border: 3px solid rgb(119, 63, 7);
+    font-family: 'Krona One';
+    font-size: 12px;
+    color: rgb(92, 49, 6);
+    text-align: center;
+    letter-spacing: 3px;
+    position: relative;
+    left: 25%;
+}
+
+.btn:hover {
+    width: 50%;
+    font-size: 16px;
+    letter-spacing: 8px;
+    position: relative;
+    left: 37,5%;
+    transition: .4s;
+}
+
+.container-2 {
+    padding: 32px 70px;
+    margin: 20px;
+    border-radius: 8px;
+    width: 60vw;
+}
+
+.list {
+    font-family: 'Krona One';
+    color: rgb(114, 60, 5);
+}
+
+.table {
+    width: 100%;
+    padding: 20px;
+}
+
+thead {
+    font-family: 'Krona One';
+    font-size: 16px;
+    color: rgb(114, 60, 5);
+}
+
+.success,
+.error {
+    color: white;
+    padding: 5px;
+    margin: 5px 0 15px 0;
+    width: 80%;
+    border-radius: 8px;
+    position: relative;
+    left: 10%;
+    text-align: center;
+    font-family: 'Roboto Mono';
+}
+
+.success {
+    background: green;
+}
+
+.error {
+    background: red;
+}
+
+.delete {
+    text-decoration: none;
+    color: rgba(255, 128, 0, 1);
+    font-weight: bold;
+}
+
+td {
+    font-family: 'Roboto Mono';
+}

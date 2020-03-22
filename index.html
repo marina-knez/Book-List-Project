@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css" />
+
+    <title>Book List</title>
+
+</head>
+
+<body>
+    
+    <div class="cards">
+        <div class="container">
+            <h1>Add a Book</h1>
+            <div class="book-form">
+                <div>
+                    <p>Book Title</p>
+                    <input type="text" id="title">
+                </div>
+                <div>
+                    <p>Author</p>
+                    <input type="text" id="author">
+                </div>
+                <div>
+                    <p>ISBN</p>
+                    <input type="text" id="isbn">
+                </div>
+                <div>
+                    <button class="btn">Submit</button>
+                </div>
+            </div>
+        </div>
+    
+        <div class="container-2">
+            <select class="list">
+                <option disabled hidden selected>Find a Book by:</option>
+                <option value="title">Title</option>
+                <option value="author">Author</option>
+                <option value="isbn">ISBN</option>
+            </select>
+            <div class="input-field">
+                <input type="text" name="filter" id="filter" placeholder="Find a Book">
+            </div>
+        </div>
+    
+        <div class="container">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Title</th>
+                        <th>Author</th>
+                        <th>ISBN</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody class="book-list"></tbody>
+            </table>
+        </div>
+    </div>
+
+<script src="app.js"></script>
+
+</body>
+</html>
